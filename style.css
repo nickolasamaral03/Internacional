@@ -29,7 +29,7 @@ body{
 .componentes {
     padding: 10px;
     margin-left: 62%;
-    margin-top: -14%;
+    margin-top: -15%;
     font-family: var(--fonte-paragrafo);
 }
 
@@ -82,18 +82,24 @@ p{
 }
 
 .image{
-    height: 300px;
+    height: 250px;
     padding: 10px;
     border-radius: 20px;
+    width: 45%;
+    /* display: block;
+    margin: auto; */
 }
 
 .article{
     padding: 10px;
     background-color: #A0180D;
-    width: 52%;
+    /* width: 90%; */
     border-radius: 10px;
     margin-left: 44%;
     list-style-position: inside;
+    /* margin: auto; */
+    margin-bottom: 15px;
+    
     
 }
 
@@ -101,11 +107,24 @@ p{
     font-family: var(--fonte-titulo);
     font-size: 1.9em;
     color: white;
+    text-align: center;
 }
 
 .lista{
     font-family: var(--fonte-paragrafo);
     font-size: 1.2em;
     color: white;
+    text-align: center;
 }
+
+.footer{
+    background-color: #AD1306;
+    margin-right: 72%;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+
 
