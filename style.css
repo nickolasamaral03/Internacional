@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+:root{
+    --Corescura:#A0180D;
+    --Cormedia: #C71C0F;
+    --corclara:#CE1D10;
+
+    --fonte-titulo:'Oswald', sans-serif;
+    --fonte-paragrafo: 'Catamaran', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(to top, #FA6052, #E01907, #AD1306);
+    height: 100%;
+}
+
+
+.header{
+    /* background-image: linear-gradient(to top, rgb(241, 103, 103),#C71C0F); */
+    height: 210px;
+}
+
+.componentes {
+    padding: 10px;
+    margin-left: 62%;
+    margin-top: -14%;
+    font-family: var(--fonte-paragrafo);
+}
+
+.componentes > a{
+    padding: 20px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: white;
+}
+
+.componentes > a:hover{
+    text-decoration: underline;
+    color: #c76d66;
+}
+
+.inter-header{
+    height: 80px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.inter{
+    margin-left: 2% ;
+    color: white;
+    font-size: 3.0em;
+    font-family: var(--fonte-titulo);
+    padding: 15px;
+}
+
+
+.main{
+    /* background-color: white; */
+}
+
+.title{
+    font-family: var(--fonte-titulo);
+    font-size: 1.9em;
+    color: white;
+    margin-left: 2%;
+}
+
+p{
+    margin-left: 1.5%;
+    /* text-align: justify; */
+    margin-right: 0.7%;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-family: var(--fonte-paragrafo);
+    color: white;
+}
+
+.image{
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.article{
+    padding: 10px;
+    background-color: #A0180D;
+    width: 52%;
+    border-radius: 10px;
+    margin-left: 44%;
+    list-style-position: inside;
+    
+}
+
+.tit{
+    font-family: var(--fonte-titulo);
+    font-size: 1.9em;
+    color: white;
+}
+
+.lista{
+    font-family: var(--fonte-paragrafo);
+    font-size: 1.2em;
+    color: white;
+}
+
